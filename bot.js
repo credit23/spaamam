@@ -38,8 +38,7 @@ client.on('message', message => {
 
 client.on('message', message => {
     if(message.content === prefix+'ريب'){
-        message.channel.send("#rep "+"<@I am Broken
-#8505" + myid + ">")
+        message.channel.send("#rep "+"<@" + myid + ">")
     }
 });
 
